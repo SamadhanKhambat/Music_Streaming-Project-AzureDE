@@ -1,0 +1,15 @@
+{
+	"name": "df-samazureproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4bbbca92-bf83-4f86-b0de-937dee8d5215",
+		"tenantId": "e66656f1-97f5-43d6-b771-5d599165a926"
+	}
+}
