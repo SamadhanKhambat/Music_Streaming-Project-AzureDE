@@ -305,7 +305,7 @@
 				}
 			},
 			{
-				"name": "Web1",
+				"name": "Alert",
 				"type": "WebActivity",
 				"dependsOn": [
 					{
