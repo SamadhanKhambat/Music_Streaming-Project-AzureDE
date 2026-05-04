@@ -328,7 +328,7 @@
 					"method": "POST",
 					"url": "https://prod-18.canadacentral.logic.azure.com:443/workflows/a737f356da6949d5ac37793e382d6aa2/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=yQTPWcWxiFRJ3yxfaBglF0DNWUailNC3XiU5NcYAUIU",
 					"body": {
-						"value": "{\n    \"pipeline_name\":\"@{pipeline().Pipeline}\"\n    \"pipeline_runId\":@{pipeline().RunId}\n}",
+						"value": "{\n  \"pipeline_name\": \"@{pipeline().Pipeline}\",\n  \"pipeline_runId\": \"@{pipeline().RunId}\"\n}",
 						"type": "Expression"
 					}
 				}
