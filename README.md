@@ -1,29 +1,14 @@
-# 🎵 Music Streaming Data Engineering Project – Azure
+## 🚀 Music Streaming Analytics – Azure Data Engineering Project
 
-## 📌 Project Overview
-This project implements an **end-to-end Azure Data Engineering solution** for a Music Streaming platform.  
-It demonstrates **real-world data engineering practices** such as **incremental ingestion, backfilling, metadata-driven pipelines, and Delta Live Tables (DLT)**.
+End‑to‑end **Azure Data Engineering project** built for a **Music Streaming platform**, implementing a **production‑grade lakehouse architecture** using **Azure Data Factory, Azure Databricks (Delta Live Tables), Azure Logic Apps, and Delta Lake**.
 
-The solution is designed to be **scalable, reliable, and analytics-ready**.
+The solution focuses on **incremental ingestion, metadata‑driven pipelines, centralized governance, and analytics‑ready data modeling** using the **Bronze–Silver–Gold architecture**, designed to be **scalable, reusable, and production‑oriented**.
 
----
+### 🔹 Key Features
 
-## 📸 Azure Data Factory Pipeline
-The project uses **parameterized Azure Data Factory pipelines** to ingest data from the source system to Azure Data Lake.
-
-**Pipeline Highlights:**
-- Incremental data load using watermark logic  
-- Backfilling support through pipeline parameters  
-- Reusable, metadata-driven design
-  
----
-
-## 🧱 Data Processing
-- **Bronze Layer** – Raw data ingestion with incremental load and CDC  
-- **Silver Layer** – Cleaned and enriched data using Delta Live Tables  
-- **Gold Layer** – STAR schema with fact and dimension tables  
-
----
-
-## ⚙️ Key Features
-- Incremental and backfill data ingestion  
+*   Incremental & backfill‑enabled ingestion using watermark strategy
+*   Metadata‑driven orchestration with Azure Data Factory
+*   Delta Live Tables with **SCD Type‑1 & Type‑2** implementation
+*   STAR schema modeling for analytics use cases
+*   **Unity Catalog** for centralized data governance
+*   Azure Logic Apps for monitoring and alerts
